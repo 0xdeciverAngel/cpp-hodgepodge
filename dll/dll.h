@@ -6,7 +6,8 @@
 #else
 #define DLLIMPORT __declspec(dllimport)
 #endif
-extern "C" {  
+extern "C" {
 DLLIMPORT int add(int x,int y);
+DLLIMPORT int p();
 }
 #endif
